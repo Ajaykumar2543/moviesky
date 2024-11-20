@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Flash</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="nav container">
+        <a href="index.html" class="logo"> Movie<span>Sky</span></a>
+        <div class="search-box">
+          <input
+            type="search"
+            name=""
+            id="search-input"
+            placeholder="search movie"
+          />
+          <i class="bx bx-search"></i>
+        </div>
+        <a href="#" class="user">
+          <img src="FB_IMG_15890208966960200.jpg" alt="" class="user-img" />
+        </a>
+
+        <div class="navbar">
+          <a href="index.html" class="nav-link nav-active">
+            <i class="bx bx-home"></i>
+            <span class="nav-link-title">Home</span>
+          </a>
+          <a href="#home" class="nav-link">
+            <i class="bx bxs-hot"></i>
+            <span class="nav-link-title">Trending</span>
+          </a>
+          <a href="#home" class="nav-link">
+            <i class="bx bx-compass"></i>
+            <span class="nav-link-title">Explore</span>
+          </a>
+          <a href="#home" class="nav-link">
+            <i class="bx bx-tv"></i>
+            <span class="nav-link-title">Movies</span>
+          </a>
+          <a href="#home" class="nav-link">
+            <i class="bx bx-heart"></i>
+            <span class="nav-link-title">Favourite</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="play-container container">
+      <img src="movie_play/Flash_bg.jpeg" alt="" class="play-img" />
+      <div class="play-text">
+        <h2>The Flash</h2>
+        <div class="rating">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star-half"></i>
+        </div>
+        <div class="tags">
+          <span>Action</span>
+          <span>Adventure</span>
+          <span>4K</span>
+        </div>
+        <a href="#" class="watch-btn">
+          <i class="bx bx-right-arrow"></i>
+          <span>Watch the trailer</span>
+        </a>
+      </div>
+      <i class="bx bx-right-arrow play-movie"></i>
+      <div class="video-container">
+        <div class="video-box">
+          <video id="myvideo" src="movie_play/flash.mp4" controls></video>
+          <i class="bx bx-x close-video"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-movie container">
+      <h2>The Flash</h2>
+      <p>
+        Its a Sci-fi Movie where the speedstar Barry tries to save his mom from
+        an accident and it alters the future into.....
+      </p>
+      <h2 class="cast-heading">Movie Cast</h2>
+      <div class="cast">
+        <div class="cast-box">
+          <img src="movie_play/ezra_miller.jpeg" alt="" class="cast-img" />
+          <span class="cast-title">Ezra Miller</span>
+        </div>
+        <div class="cast-box">
+          <img src="movie_play/ben_afflect.jpeg" alt="" class="cast-img" />
+          <span class="cast-title">Ben Afflect</span>
+        </div>
+        <div class="cast-box">
+          <img src="movie_play/michael_shannon.jpeg" alt="" class="cast-img" />
+          <span class="cast-title">Michael Shannon</span>
+        </div>
+        <div class="cast-box">
+          <img src="movie_play/sasha_calle.jpeg" alt="" class="cast-img" />
+          <span class="cast-title">Sasha Calle</span>
+        </div>
+        <div class="cast-box">
+          <img src="movie_play/michael_keaton.jpeg" alt="" class="cast-img" />
+          <span class="cast-title">michael Keaton</span>
+        </div>
+        <div class="cast-box">
+          <img src="movie_play/Nicolas-Cage-2009.jpg" alt="" class="cast-img" />
+          <span class="cast-title">Nicolas Cage</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="download">
+      <h2 class="download-title">Download Movie</h2>
+      <div class="download-links">
+        <a href="movie_play/flash.mp4" download>480p</a>
+        <a href="movie_play/flash.mp4" download>720p</a>
+        <a href="movie_play/flash.mp4" download>1080p</a>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>&#169; Techno White Fang All Rights Reserved</p>
+    </div>
+
+    <!-- Link swiper js -->
+    <script src="main/swiper-bundle.min.js"></script>
+    <!-- Link to js -->
+    <script src="script.js"></script>
+  </body>
+</html>
